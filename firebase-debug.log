@@ -1,0 +1,42 @@
+[debug] [2018-06-14T20:26:27.114Z] ----------------------------------------------------------------------
+[debug] [2018-06-14T20:26:27.114Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\james\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-06-14T20:26:27.114Z] CLI Version:   3.18.6
+[debug] [2018-06-14T20:26:27.114Z] Platform:      win32
+[debug] [2018-06-14T20:26:27.114Z] Node Version:  v8.9.4
+[debug] [2018-06-14T20:26:27.114Z] Time:          Thu Jun 14 2018 14:26:27 GMT-0600 (Mountain Daylight Time)
+[debug] [2018-06-14T20:26:27.114Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-14T20:26:27.152Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-14T20:26:27.152Z] > authorizing via signed-in user
+[debug] [2018-06-14T20:26:27.167Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-14T20:26:27.167Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/UHSE4tXe8G88uF1-GQ7nP8eyMGtXcFA-vrcNpH-KMLg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jun 14 2018 14:26:27 GMT-0600 (Mountain Daylight Time)
+[debug] [2018-06-14T20:26:27.371Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-14T20:26:27.387Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fire-node-5ca0c  
+  
+ Thu Jun 14 2018 14:26:27 GMT-0600 (Mountain Daylight Time)
+[debug] [2018-06-14T20:26:27.723Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-14T20:26:27.723Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fire-node-5ca0c/tokens  
+  
+ Thu Jun 14 2018 14:26:27 GMT-0600 (Mountain Daylight Time)
+[debug] [2018-06-14T20:26:28.573Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-14T20:26:28.573Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fire-node-5ca0c  
+  
+ Thu Jun 14 2018 14:26:28 GMT-0600 (Mountain Daylight Time)
+[debug] [2018-06-14T20:26:28.875Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\james\Documents\GitHub\fire-node'...
+[info] 
+[debug] [2018-06-14T20:26:28.892Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1093360991537/clients/_:getWebAppConfig  
+  
+ Thu Jun 14 2018 14:26:28 GMT-0600 (Mountain Daylight Time)
+[debug] [2018-06-14T20:26:29.357Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
